@@ -65,9 +65,9 @@ const Navbar = () => {
                     </a>
                    
                     <ul className='p-4'>
-                        <li className='hover:text-blue-800 p-4 border-b border-b-blue-300'>Zašto</li>
-                        <li className='hover:text-blue-800 p-4 border-b  border-b-blue-300 '>Funkcionalnosti</li>
-                        <li className='hover:text-blue-800 p-4  '>Upotreba</li>
+                        <li className='hover:text-blue-800 p-4 border-b border-b-blue-300' onClick={() => handleSmoothScroll('zasto')}>Zašto</li>
+                        <li className='hover:text-blue-800 p-4 border-b  border-b-blue-300 ' onClick={() => handleSmoothScroll('usage')}>Upotreba</li>
+                        <li className='hover:text-blue-800 p-4  '  onClick={() => handleSmoothScroll('funct')}>Funkcionalnosti</li>
                         
     
                     </ul>

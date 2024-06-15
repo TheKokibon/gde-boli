@@ -10,7 +10,7 @@ const Hero = () => {
         <h2 className='text-md lg:text-xl p-2'>Pratite i beležite bolove sa lakoćom, bilo kada i bilo gde.</h2>
       <GooglePlayButton
       
-        url='https://www.youtube.com/watch?v=E6zDMdInW9I'
+        url='https://elab.fon.bg.ac.rs/'
         theme={"light"}
         className={"hover:bg-blue-800 hover:text-white self-center md:self-left m-4"}
         height={100}

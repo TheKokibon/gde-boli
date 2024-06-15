@@ -19,7 +19,7 @@ const Footer = () => {
                 <h2 className="hover:text-blue-800">Gde boli</h2>
             </div>
         </a>
-             <GooglePlayButton  url='https://www.youtube.com/watch?v=E6zDMdInW9I'
+             <GooglePlayButton  url='https://elab.fon.bg.ac.rs/'
         theme={"light"}
         className={"hover:bg-blue-800 hover:text-white self-center md:self-left m-4"}/>   
 
